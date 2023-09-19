@@ -1,0 +1,28 @@
+{
+  "name": "calculatorts-robin-test",
+  "version": "1.0.1",
+  "description": "calculator with typescript just to test npm",
+  "keywords": ["calculator"],
+  "license": "MIT",
+  "main": "dist-node/index.js",
+  "browser":"dist-browser/indexjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-browser": "npx tsc src/index.ts --outDir dist-browser --module es6",
+    "build-node": "npx tsc src/index.ts --outDir dist-node",
+    "build": "npm run build-browser & npm run build-node "
+  },
+  "homepage": "https://github.com/robinglto/npm.git#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinglto/npm.git"
+  },
+  "author": "Saul Perez",
+  "bugs": {
+    "url": "https://github.com/robinglto/npm/issues"
+  },
+  "homepage": "https://github.com/robinglto/npm#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
