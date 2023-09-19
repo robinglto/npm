@@ -12,7 +12,6 @@
     "build-node": "npx tsc src/index.ts --outDir dist-node",
     "build": "npm run build-browser & npm run build-node "
   },
-  "homepage": "https://github.com/robinglto/npm.git#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robinglto/npm.git"
