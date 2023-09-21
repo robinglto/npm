@@ -1,6 +1,6 @@
 {
   "name": "calculatorts-robin-test",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "calculator with typescript just to test npm",
   "keywords": ["calculator"],
   "license": "MIT",
