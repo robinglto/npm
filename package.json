@@ -1,10 +1,12 @@
 {
   "name": "calculatorts-robin-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "calculator with typescript just to test npm",
   "keywords": ["calculator"],
   "license": "MIT",
-  "main": "dist-node/index.js",
+  "main": "dist-node/index",
+  "types": "dist-node/index",
+
   "browser":"dist-browser/indexjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
