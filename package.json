@@ -1,17 +1,15 @@
 {
   "name": "calculatorts-robin-test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "calculator with typescript just to test npm",
   "keywords": ["calculator"],
   "license": "MIT",
-  "main": "dist-node/index",
-  "types": "dist-node/index",
-
+  "main": "dist-node/index.js",
   "browser":"dist-browser/indexjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-browser": "npx tsc src/index.ts --outDir dist-browser --module es6",
-    "build-node": "npx tsc src/index.ts --outDir dist-node",
+    "build-node": "npx tsc src/index.ts --outDir dist-node --module es6",
     "build": "npm run build-browser & npm run build-node "
   },
   "repository": {
